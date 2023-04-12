@@ -1,5 +1,3 @@
-# OVERWATCH2
-
 # Overwatch hero selector vanilla
 
 오버워치 영웅 선택화면 (fastcampus online class)
