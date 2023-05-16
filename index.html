@@ -5,14 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Overwatch</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.main.css" />
+    <!--reset.css를 검색하여 html code를 복붙하여준다. 브라우저를 리셋시켜준다.-->
     <link rel="stylesheet" href="./main.css" />
+    <!--link태그를 이용하여 css파일을 연결시켜준다.-->
   </head>
   <body>
     <div class="container">
+      <!--❓❓❓❓
+        왜 히어로 캐릭터들의 칸들과 로고를 하나로 div시켜 주었을까??
+      .container로 안나누어주고 .heroes와 .heroes.hero 그리고 .logo로 나눠주어도 되지 않나???
+     ❓❓❓❓-->
       <div class="heroes">
         <div class="hero">
           <div class="image"></div>
+          <!--div의 hero안에 imge를 넣은 것을 32개를 만들어줘야 할때,
+          .class name*32>.class name2를 적어주면 자동생성된다.
+          
+        .(점)은 div의 class를 생성시켜주며, 
+        *2(곱하기+숫자)는 그 수 만큼 한번에 생성된다. 
+        >는 앞의 상위요소에 하위요소를 만들주는 것이다.
+      -->
         </div>
         <div class="hero">
           <div class="image"></div>
